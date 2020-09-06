@@ -5,7 +5,7 @@ This library can be used for feature scaling and unscaling.
 ## Installation
 
 ```bash
-pip install https://github.com/Raiz-Environmental-Technology/feature_scaling
+pip install git+ssh://git@github.com/Raiz-Environmental-Technology/feature_scaling.git
 ```
 
 ## Usage
