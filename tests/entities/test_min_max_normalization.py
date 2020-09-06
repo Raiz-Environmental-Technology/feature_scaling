@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from App.Entities.Type.min_max_normalization import MinMaxNormalization
+from feature_scaling.entities.type.min_max_normalization import MinMaxNormalization
 
 
 class TestMinMaxNormalization(unittest.TestCase):

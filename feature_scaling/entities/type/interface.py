@@ -1,5 +1,5 @@
 import abc
-from App.CustomTyping.feature import Feature
+from feature_scaling.custom_typing.feature import Feature
 
 
 class FeatureScalingInterface(metaclass=abc.ABCMeta):

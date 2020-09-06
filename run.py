@@ -1,4 +1,4 @@
-from App.UseCases.feature_scaling_face import FeatureScalingFacede
+from feature_scaling import FeatureScalingFacede
 
 
 input_feature = [2, 4, 6]

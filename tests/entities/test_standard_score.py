@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from App.Entities.Type.standard_score import StandardScore
+from feature_scaling.entities.type.standard_score import StandardScore
 
 
 class TestStandardScore(unittest.TestCase):

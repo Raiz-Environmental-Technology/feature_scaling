@@ -1,7 +1,7 @@
 import abc
 import numpy as np
 
-from .feature_scaling_interface import FeatureScalingInterface
+from .interface import FeatureScalingInterface
 
 
 class FeatureScalingAbstractClass(FeatureScalingInterface, metaclass=abc.ABCMeta):

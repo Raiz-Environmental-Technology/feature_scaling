@@ -1,6 +1,6 @@
-from App.CustomTyping.feature import Feature
-from App.Models.feature import FeatureModel
-from .Type.feature_scaling_interface import FeatureScalingInterface
+from feature_scaling.custom_typing.feature import Feature
+from feature_scaling.models.feature import FeatureModel
+from .type.interface import FeatureScalingInterface
 
 
 class FeatureScalingFactory:

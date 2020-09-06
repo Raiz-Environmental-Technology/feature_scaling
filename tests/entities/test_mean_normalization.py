@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from App.Entities.Type.mean_normalization import MeanNormalization
+from feature_scaling.entities.type.mean_normalization import MeanNormalization
 
 
 class TestMeanNormalization(unittest.TestCase):

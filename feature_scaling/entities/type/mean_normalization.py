@@ -1,6 +1,6 @@
 import numpy as np
 
-from .feature_scaling_abstract_class import FeatureScalingAbstractClass
+from .abstract_class import FeatureScalingAbstractClass
 
 
 class MeanNormalization(FeatureScalingAbstractClass):

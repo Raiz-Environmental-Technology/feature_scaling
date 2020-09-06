@@ -1,6 +1,6 @@
 import unittest
 
-from App.Models.feature import FeatureModel
+from feature_scaling.models.feature import FeatureModel
 
 
 class TestFeatureModel(unittest.TestCase):

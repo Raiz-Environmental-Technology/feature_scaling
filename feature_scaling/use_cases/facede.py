@@ -1,9 +1,9 @@
-from App.CustomTyping.feature import Feature
-from App.Models.feature import FeatureModel
-from App.Entities.feature_scaling_factory import FeatureScalingFactory
-from App.Entities.Type.mean_normalization import MeanNormalization
-from App.Entities.Type.min_max_normalization import MinMaxNormalization
-from App.Entities.Type.standard_score import StandardScore
+from feature_scaling.custom_typing.feature import Feature
+from feature_scaling.models.feature import FeatureModel
+from feature_scaling.entities.factory import FeatureScalingFactory
+from feature_scaling.entities.type.mean_normalization import MeanNormalization
+from feature_scaling.entities.type.min_max_normalization import MinMaxNormalization
+from feature_scaling.entities.type.standard_score import StandardScore
 
 
 class FeatureScalingFacede:
