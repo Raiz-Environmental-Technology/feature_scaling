@@ -43,3 +43,9 @@ class TestMeanNormalization(unittest.TestCase):
             unscaled_feature = mean_normalization.undo(
                 feature, scaled_feature)
             self.assertTrue(np.equal(feature, unscaled_feature).all())
+
+    def test_class_representations(self):
+        print("Running Mean Normalization Class Representations Test")
+        mean_normalization = MeanNormalization()
+        self.assertTrue(isinstance(mean_normalization.__str__(), str))
+        self.assertTrue(isinstance(mean_normalization.__repr__(), str))

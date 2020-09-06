@@ -24,6 +24,12 @@ class FeatureScalingFacede:
         self._feature_scaling_factory = FeatureScalingFactory(
             self.scaling_method())
 
+    def __str__(self):
+        return f"feature: {self.feature}, scaling_method: {self.scaling_method().__str__()}"
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}(feature={self.feature}, scaling_method={self.scaling_method().__repr__()})"
+
     @property
     def feature(self) -> Feature:
         return self._feature

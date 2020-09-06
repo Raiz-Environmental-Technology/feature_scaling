@@ -43,3 +43,9 @@ class TestMinMaxNormalization(unittest.TestCase):
             unscaled_feature = min_max_normalization.undo(
                 feature, scaled_feature)
             self.assertTrue(np.equal(feature, unscaled_feature).all())
+
+    def test_class_representations(self):
+        print("Running Min Max Normalization Class Representations Test")
+        min_max_normalization = MinMaxNormalization()
+        self.assertTrue(isinstance(min_max_normalization.__str__(), str))
+        self.assertTrue(isinstance(min_max_normalization.__repr__(), str))

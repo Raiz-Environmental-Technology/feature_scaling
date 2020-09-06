@@ -10,6 +10,12 @@ class FeatureScalingFactory:
         self._feature_scaling_method = None
         self.feature_scaling_method = feature_scaling_method
 
+    def __str__(self):
+        return f"Feature Scaling Factory using {self.feature_scaling_method.__str__()}"
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}(feature_scaling_method={self.feature_scaling_method.__repr__()})"
+
     @property
     def feature_scaling_method(self) -> FeatureScalingInterface:
         return self._feature_scaling_method

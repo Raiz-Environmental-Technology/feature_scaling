@@ -42,3 +42,9 @@ class TestStandardScore(unittest.TestCase):
             scaled_feature = standard_score.do(feature)
             unscaled_feature = standard_score.undo(feature, scaled_feature)
             self.assertTrue(np.equal(feature, unscaled_feature).all())
+
+    def test_class_representations(self):
+        print("Running Standard Score Class Representations Test")
+        standard_score = StandardScore()
+        self.assertTrue(isinstance(standard_score.__str__(), str))
+        self.assertTrue(isinstance(standard_score.__repr__(), str))

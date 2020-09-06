@@ -12,6 +12,12 @@ class MeanNormalization(FeatureScalingAbstractClass):
         self._max = None
         self._mean = None
 
+    def __str__(self):
+        return "Mean Normalization Method"
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}()"
+
     def _set_scaling_attributes(self, feature) -> None:
         feature = np.array(feature)
         self._min = feature.min()

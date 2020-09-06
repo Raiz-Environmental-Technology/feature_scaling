@@ -43,3 +43,9 @@ class TestFeatureModel(unittest.TestCase):
                 FeatureModel(feature)
             except ValueError:
                 self.fail("ValueError raised")
+
+    def test_class_representations(self):
+        print("Running Feature Model Class Representations Test")
+        feature = FeatureModel([1, 2, 3])
+        self.assertTrue(isinstance(feature.__str__(), str))
+        self.assertTrue(isinstance(feature.__repr__(), str))

@@ -10,6 +10,12 @@ class FeatureModel:
         self._feature = None
         self.feature = feature
 
+    def __str__(self):
+        return f"feature: {self.feature}"
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}(feature={self.feature})"
+
     @property
     def feature(self) -> Feature:
         return self._feature
