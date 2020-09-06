@@ -1,6 +1,6 @@
 import unittest
 
-from feature_scaling.use_cases.feature_scaling_face import FeatureScalingFacede
+from feature_scaling.use_cases.facede import FeatureScalingFacede
 
 
 class TestFeatureScalingFacede(unittest.TestCase):
