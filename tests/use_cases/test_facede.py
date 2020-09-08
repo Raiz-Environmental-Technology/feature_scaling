@@ -54,8 +54,5 @@ class TestFeatureScalingFacede(unittest.TestCase):
         print("Running Feature Scaling Facede Class Representations Test")
         facede = FeatureScalingFacede(
             self.input_feature, self.valid_methods[0])
-
-        print(facede)
-        print(repr(facede))
         self.assertTrue(isinstance(facede.__str__(), str))
         self.assertTrue(isinstance(facede.__repr__(), str))

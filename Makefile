@@ -6,6 +6,3 @@ install-dev:
 
 install-prod:
 	pip install -e .
-
-run:
-	python run.py

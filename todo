@@ -1,22 +1,7 @@
-Escrever as strings das classes e funções do modulo
-"""
-Generate a list of all Python packages found within a directory
-"""
+Implementar docstrings
+https://www.datacamp.com/community/tutorials/docstrings-python
+https://github.com/sphinx-doc/sphinx/issues/3140
 
-@classmethod
-def find(cls, where='.', exclude=(), include=('*',)):
-    """Return a list all Python packages found within directory 'where'
+diagrama de classe
 
-    'where' is the root directory which will be searched for packages.  It
-    should be supplied as a "cross-platform" (i.e. URL-style) path; it will
-    be converted to the appropriate local path syntax.
-
-    'exclude' is a sequence of package names to exclude; '*' can be used
-    as a wildcard in the names, such that 'foo.*' will exclude all
-    subpackages of 'foo' (but not 'foo' itself).
-
-    'include' is a sequence of package names to include.  If it's
-    specified, only the named packages will be included.  If it's not
-    specified, all found packages will be included.  'include' can contain
-    shell style wildcard patterns just like 'exclude'.
-    """
+Componente de análise de abstração

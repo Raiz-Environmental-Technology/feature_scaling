@@ -2,3 +2,4 @@ autopep8==1.5.4
 numpy==1.19.1
 pycodestyle==2.6.0
 toml==0.10.1
+abstraction-level-analyzer @ git+ssh://git@github.com/Raiz-Environmental-Technology/abstraction_level_analyzer.git@467c3822366c6b2427fbd7c58f35ab112d460ff5

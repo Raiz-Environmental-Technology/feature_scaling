@@ -26,6 +26,10 @@ for method in FeatureScalingFacede.implemented_methods:
     print(method)
 ```
 
+## Class Diagram
+![Alt text](ClassDiagram.png?raw=true "Class Diagram")
+
+
 ## License
 This is private python package from Raiz Environmental Technology
 [MIT](https://github.com/Raiz-Environmental-Technology/feature_scaling/blob/master/LICENSE)
