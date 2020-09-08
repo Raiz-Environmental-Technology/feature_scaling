@@ -26,8 +26,8 @@ for method in FeatureScalingFacede.implemented_methods:
     print(method)
 ```
 
-## Class Diagram
-![Alt text](ClassDiagram.png?raw=true "Class Diagram")
+## Simplified Class Diagram
+![Alt text](ClassDiagram.png?raw=true "Simplified Class Diagram")
 
 
 ## License

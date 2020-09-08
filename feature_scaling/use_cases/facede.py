@@ -7,6 +7,8 @@ from feature_scaling.entities.type.standard_score import StandardScore
 
 
 class FeatureScalingFacede:
+    """"""
+
     __slots__ = ["_feature", "_scaling_method",
                  "_feature_scaling_factory"]
 
